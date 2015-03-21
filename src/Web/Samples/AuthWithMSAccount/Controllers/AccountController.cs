@@ -40,10 +40,10 @@ namespace Microsoft.Live.Web.Samples.AuthWithMSAccount.Controllers
             Contacts = 2,
         }
 
-        private const string ClientId = "%YourAppClientId%"; // Your app client Id
+        private const string ClientId = "000000004C113E1E"; // Your app client Id
         private const int ClientSecretKey = 0; // Your app secret key (index)
-        private const string ClientSecret = "%YourAppSecret%"; // Your app secret
-        private const string ClientDomain = "%YourAppDomain%"; // Your app site domain, e.g. www.foo.com
+        private const string ClientSecret = "0KGtey70wQhtqj/w2e3vg3LK4JkweTnP  "; // Your app secret
+        private const string ClientDomain = "rc.localtest.me"; // Your app site domain, e.g. www.foo.com
 
         private LiveAuthClient liveAuthClient;
 
